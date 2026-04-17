@@ -40,6 +40,7 @@ A sample paired-end FASTQ dataset is provided for participants who want to follo
 Click the link below to download the workshop FASTQ files:
 
 [⬇ Download Sample FASTQ Data]([placeholder])
+(this link won't work before May 14)
 
 ## Getting Started
 
