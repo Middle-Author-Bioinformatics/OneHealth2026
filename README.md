@@ -1,35 +1,64 @@
 # OneHealth2026
 
-This repository complements the **Microbial Variant Calling** workshop, providing sample data and resources for participants to practice whole-genome sequencing analysis and variant identification in microbial genomes.
+This repository accompanies the **Microbial Evolution & Variant Calling** workshop presented at the **One Health Microbiome Symposium (May 13–14, 2026, Penn State)** by **Arkadiy I. Garber** and **Vaughn S. Cooper** of **Middle Author Bioinformatics**.
+
+The workshop introduces the core concepts behind experimental evolution, microbial whole-genome resequencing, and variant calling, followed by a hands-on tutorial using the **MAB breseq web app**.
 
 ## Workshop Overview
 
-In this workshop, participants will learn how to:
+Participants will learn how to:
 
-- Perform quality control on raw sequencing reads
-- Align short reads to a reference genome
-- Call genomic variants (SNPs and small indels)
-- Interpret variant calling results in a One Health context
+- Understand the goals of experimental evolution
+- Interpret Illumina short-read sequencing data
+- Align microbial reads to a reference genome
+- Identify SNPs, small indels, and structural variants
+- Use **breseq** for microbial variant calling
+- Interpret mutation calls in their biological and evolutionary context
+
+The workshop includes two parts:
+
+1. **Theory & Concepts**
+   - Experimental evolution and why we sequence evolved microbes
+   - Read alignment and short-read sequencing basics
+   - Mutation types commonly observed in evolved microbial genomes
+   - How breseq works
+   - Reference genome selection
+   - Reading and interpreting breseq output
+
+2. **Hands-On Practice**
+   - Navigate to `breseq.midauthorbio.com`
+   - Register for an account
+   - Upload reads or use the sample dataset
+   - Select a reference genome
+   - Run the variant-calling workflow
+   - Explore the interactive breseq HTML report
 
 ## Sample Data
 
-The sample FASTQ data used in this workshop is derived from the following reference assembly:
+A sample paired-end FASTQ dataset is provided for participants who want to follow along with the workshop exercises.
 
-**Reference Accession:** GCA_931907645.1
+Click the link below to download the workshop FASTQ files:
 
-Click the link below to download the sample FASTQ data:
-
-[⬇ Download Sample FASTQ Data](https://www.ebi.ac.uk/ena/browser/view/GCA_931907645.1)
-
-> **Note:** The download link above opens the EBI/ENA browser page for the reference accession. On that page, select the **Read Files** tab to download the paired-end FASTQ files (`_R1.fastq.gz` and `_R2.fastq.gz`) used in the workshop exercises.
+[⬇ Download Sample FASTQ Data]([placeholder])
 
 ## Getting Started
 
-1. Download the sample FASTQ files from the link above.
-2. Follow the workshop instructions provided by your facilitator.
-3. Use the metadata template and workshop materials to complete the variant calling exercises.
+1. Download the sample FASTQ files using the link above.
+2. Go to **breseq.midauthorbio.com**.
+3. Register and create an account.
+4. Upload the sample reads.
+5. Select the appropriate reference genome.
+6. Run the analysis through the web app.
+7. Review the output report and interpret the detected mutations.
+
+## Notes
+
+- The sample dataset is intended for instructional use during the workshop.
+- Participants are also welcome to upload and analyze their own microbial whole-genome sequencing data.
+- Mutation frequencies below 100% may indicate polymorphisms within a population, depending on the analysis mode used.
 
 ## Additional Resources
 
-- [EBI European Nucleotide Archive](https://www.ebi.ac.uk/ena/)
-- [NCBI Assembly Database](https://www.ncbi.nlm.nih.gov/assembly/)
+- **breseq web app:** `breseq.midauthorbio.com`
+- **Middle Author Bioinformatics:** `midauthorbio.com`
+- **breseq:** Barrick Lab microbial variant-calling software for haploid genomes
