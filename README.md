@@ -26,7 +26,7 @@ The workshop includes two parts:
    - Reading and interpreting breseq output
 
 2. **Hands-On Practice**
-   - Navigate to `breseq.midauthorbio.com`
+   - Navigate to `midauthorbio.com/#breseq`
    - Register for an account
    - Upload reads or use the sample dataset
    - Select a reference genome
@@ -59,6 +59,6 @@ Click the link below to download the workshop FASTQ files:
 
 ## Additional Resources
 
-- **breseq web app:** `breseq.midauthorbio.com`
-- **Middle Author Bioinformatics:** `midauthorbio.com`
-- **breseq:** Barrick Lab microbial variant-calling software for haploid genomes
+- **breseq web app:** https://midauthorbio.com/#breseq
+- **Middle Author Bioinformatics:** https://midauthorbio.com
+- **breseq:** Barrick Lab microbial variant-calling software for haploid genomes: https://github.com/barricklab/breseq/wiki
