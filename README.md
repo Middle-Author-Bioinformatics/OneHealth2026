@@ -35,12 +35,8 @@ The workshop includes two parts:
 
 ## Sample Data
 
-A sample paired-end FASTQ dataset is provided for participants who want to follow along with the workshop exercises.
+A sample paired-end FASTQ dataset along with a Pseudomonas fluorescens reference is provided in this repo for participants who want to follow along with the workshop exercises.
 
-Click the link below to download the workshop FASTQ files:
-
-[⬇ Download Sample FASTQ Data]([placeholder])
-(this link won't work before May 14)
 
 ## Getting Started
 
