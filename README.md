@@ -4,6 +4,11 @@ This repository accompanies the **Microbial Evolution & Variant Calling** worksh
 
 The workshop introduces the core concepts behind experimental evolution, microbial whole-genome resequencing, and variant calling, followed by a hands-on tutorial using the **MAB breseq web app**.
 
+## Sample Data
+
+A sample paired-end FASTQ dataset along with a Pseudomonas fluorescens reference is provided in this repo for participants who want to follow along with the workshop exercises.
+
+
 ## Workshop Overview
 
 Participants will learn how to:
@@ -32,11 +37,6 @@ The workshop includes two parts:
    - Select a reference genome
    - Run the variant-calling workflow
    - Explore the interactive breseq HTML report
-
-## Sample Data
-
-A sample paired-end FASTQ dataset along with a Pseudomonas fluorescens reference is provided in this repo for participants who want to follow along with the workshop exercises.
-
 
 ## Getting Started
 
